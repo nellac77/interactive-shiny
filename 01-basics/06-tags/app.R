@@ -1,6 +1,8 @@
-# Tags
+# HTML Tags
+# Shiny translates html and css for you, but you can also do it manually. R will
+# let you use html tags (see the names(tags) fucntion) as R functions.
 
-names(tags)
+names(tags) # run this to see all the html tags
 
 server <- function(input, output, session) {}
 
