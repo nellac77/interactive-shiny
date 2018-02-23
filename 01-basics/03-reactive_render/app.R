@@ -1,4 +1,4 @@
-# Using reactive() and renderPlot() in a single app
+# Using reactive() and render() in a single app
 
 server <- function(input, output, session) {
   
