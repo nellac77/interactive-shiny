@@ -1,7 +1,7 @@
 # Making a reactive app
 
 server <- function(input, output, session) {
-  observe({
+  observe({ # If you want app to react to reactive values
     addtext <- paste("your initial input:", input$mystring)
     updateTextInput(session, "mystring2", value=addtext)
   })
